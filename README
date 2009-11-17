@@ -1,0 +1,57 @@
+libbinio
+------------------------------------------
+The binary I/O stream class library presents a platform-independent way 
+to access binary data streams in C++. The library is hardware 
+independent in the form that it transparently converts between the 
+different forms of machine-internal binary data representation. It 
+further employs no special I/O protocol and can be used on arbitrary 
+binary data sources.
+
+Runtime requirements:
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libstdc++6-4.3.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
+  libtool-2.2.7a-14
+  make-3.81-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://libbinio.sourceforge.net/
+
+Canonical download:
+  http://sourceforge.net/projects/libbinio/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libbinio-1.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libbinio-1.4-X.cygport all
+
+This will create:
+  /usr/src/libbinio-1.4-X-src.tar.bz2
+  /usr/src/libbinio-devel-1.4-X.tar.bz2
+  /usr/src/libbinio1-1.4-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 1.4-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
