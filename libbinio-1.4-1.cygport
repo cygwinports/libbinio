@@ -1,8 +1,0 @@
-DESCRIPTION="Binary I/O stream class library"
-HOMEPAGE="http://libbinio.sourceforge.net/"
-SRC_URI="mirror://sourceforge/libbinio/${P}.tar.bz2"
-PATCH_URI="1.4-no-undefined.patch"
-
-PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
-libbinio1_CONTENTS="usr/bin/cygbinio-1.dll usr/share/doc/"
-libbinio_devel_CONTENTS="usr/include/ usr/lib/ usr/share/info/"
